@@ -2,7 +2,7 @@ import { BookOpen, Eye, HelpCircle } from "lucide-react";
 
 export default function TestCard() {
   return (
-    <div className="flex gap-5 py-10">
+    <div className="flex gap-5 py-10 justify-center">
       <div className="nes-container is-rounded p-0! bg-white rounded-lg shadow w-xs flex flex-col overflow-hidden my-16 hover:-translate-y-1 hover:scale-105 transition-transform duration-400 ease-in-out nes-container is-rounded">
         <div className="py-20 bg-neutral-500 text-center">
           <p className="text-2xl font-bold">Listening</p>

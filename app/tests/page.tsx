@@ -42,7 +42,7 @@ export default function TestPage() {
           {Object.entries(question.options).map(([key, value]) => (
             <li
               key={key}
-              className="p-3 bg-neutral-800 hover:bg-neutral-700 rounded-lg transition-colors cursor-pointer"
+              className="p-3 bg-neutral-800 hover:bg-neutral-700 rounded-lg transition-colors"
             >
               <span className="font-bold text-white">{key}.</span>{" "}
               <span className="text-neutral-300">{value}</span>

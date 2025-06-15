@@ -1,6 +1,6 @@
 export default function HeroSection() {
   return (
-    <div className="flex text-center flex-col pt-10">
+    <div className="flex text-center flex-col py-30">
       <p className="text-xl ">Toefl Practice Test Online</p>
       <p className="nes-text is-disabled text-xs px-30">
         TOEFL practice tests furnishes learners a realistic simulation of the
